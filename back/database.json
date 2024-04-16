@@ -1,0 +1,18 @@
+{
+    "usuarios":[
+        {
+            "id": "1",
+            "documento": "1010028893",
+            "nombre": "Sebastian Villada",
+            "usuario": "admin",
+            "contrasena": "1010028893"
+        },
+        {
+            "id": "2",
+            "documento": "1030405060",
+            "nombre": "Jaime Zapata",
+            "usuario": "admin",
+            "contrasena": "1030405060"
+        }
+    ]
+}
