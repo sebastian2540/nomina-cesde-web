@@ -7,9 +7,9 @@ function App() {
   return (
     <section>
       <Login />
-      {/* <Home />
-      <Employee />      
-      <Settlement /> */}
+      {/* <Home /> */}
+      {/* <Employee />       */}
+      {/* <Settlement /> */}
     </section>
   );
 }

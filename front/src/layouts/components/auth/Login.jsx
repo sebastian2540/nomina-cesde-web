@@ -10,12 +10,12 @@ const Login = () => {
   const [getContrasena, setContrasena] = useState("");
   let redireccion = useNavigate();
 
-  if (getUsuario == "adminomina") {
-    redireccion = "/home";
-    // if (getContrasena == "123456")
-    //   setTimeout(() => {
-    //     redireccion = "/home";
-    //   }, 3000);
+  if (getUsuario === "adminomina") {
+    if (getContrasena === "123456"){
+      setTimeout(() => {
+        redireccion("/home")
+      },2000);
+    }
   } else {
     console.log("Credenciales incorrectas");
   }
