@@ -1,18 +1,100 @@
 {
-    "usuarios":[
+    "tbl_empleado":[
         {
-            "id": "1",
-            "documento": "1010028893",
-            "nombre": "Sebastian Villada",
-            "usuario": "admin",
+            "id_empleado": "1010028893",
+            "nombre_empleado": "Sebastian",
+            "apellido_empleado": "Villada Jaramillo",
+            "email_empleado": "svilladajar@cesde.net",
+            "cargo_empleado": "Administrador Nomina App",
+            "id_area": "1",
+            "tipo_contrato": "Indefinido",
+            "tipo_salario": "Fijo",
+            "rol_empleado" : "Nómina",
+            "usuario": "1010028893",
             "contrasena": "1010028893"
         },
         {
-            "id": "2",
-            "documento": "1030405060",
-            "nombre": "Jaime Zapata",
-            "usuario": "admin",
-            "contrasena": "1030405060"
+            "id_empleado": "",
+            "nombre_empleado": "Luisa",
+            "apellido_empleado": "Rojas",
+            "email_empleado": "lrojas@cesde.net",
+            "cargo_empleado": "Administrador Nomina Web",
+            "id_area": "1",
+            "tipo_contrato": "Indefinido",
+            "tipo_salario": "Fijo",
+            "rol_empleado" : "Nómina",
+            "usuario": "",
+            "contrasena": ""
+        },
+        {
+            "id_empleado": "",
+            "nombre_empleado": "Dayana",
+            "apellido_empleado": "Hernandez",
+            "email_empleado": "dhernandez@cesde.net",
+            "cargo_empleado": "Auxiliar Nomina App",
+            "id_area": "1",
+            "tipo_contrato": "Indefinido",
+            "tipo_salario": "Horas",
+            "rol_empleado" : "Auxiliar Nómina",
+            "usuario": "",
+            "contrasena": ""
+        },
+        {
+            "id_empleado": "",
+            "nombre_empleado": "Susana",
+            "apellido_empleado": "Rojas",
+            "email_empleado": "srojas@cesde.net",
+            "cargo_empleado": "Auxiliar Nomina Web",
+            "id_area": "1",
+            "tipo_contrato": "Indefinido",
+            "tipo_salario": "Horas",
+            "rol_empleado" : "Nómina",
+            "usuario": "",
+            "contrasena": ""
+        },
+        {
+            "id_empleado": "",
+            "nombre_empleado": "Brayan",
+            "apellido_empleado": "Ruiz",
+            "email_empleado": "bruiz@cesde.net",
+            "cargo_empleado": "Auxiliar Nomina App - Web",
+            "id_area": "1",
+            "tipo_contrato": "Indefinido",
+            "tipo_salario": "Horas",
+            "rol_empleado" : "Nómina",
+            "usuario": "",
+            "contrasena": ""
+        }
+    ],
+    "tbl_area":[
+        {
+            "id_area" : "1",
+            "nombre_area" : "Nómina"
+        }
+    ],
+    "tbl_liq_tc":[
+        {
+            "id_liq_tc": "varchar",
+            "id_empleado": "varchar",
+            "fecha_ingreso": "date",
+            "fecha_finalizacion": "date",
+            "salario_mensual": "float",
+            "auxilio_transporte": "boolean",
+            "valor_auxilio_transporte": "float",
+            "clase_riesgo": "varchar"
+        }
+    ],
+    "tbl_liq_ph":[
+        {
+            "id_liq_tc": "varchar",
+            "id_empleado": "varchar",
+            "fecha_ingreso": "date",
+            "fecha_finalizacion": "date",
+            "salario_mensual": "float",
+            "auxilio_transporte": "boolean",
+            "valor_auxilio_transporte": "float",
+            "clase_riesgo": "varchar",
+            "horas_laboradas": "double"
         }
     ]
 }
